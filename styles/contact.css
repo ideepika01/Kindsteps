@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0057b7;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-section h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #002b80;
+}
+
+.contact-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.contact-card {
+    width: 250px;
+    height: 250px;
+    background-color: #e6f0ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.message-box {
+    width: 70%;
+    height: 100px;
+    background-color: #d9e8ff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-top: 1px solid #ccc;
+}
+
+.back-arrow i {
+    font-size: 24px;
+    color: #002b80;
+    cursor: pointer;
+}
+
+.social-icons i {
+    font-size: 22px;
+    margin-left: 20px;
+    color: #002b80;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #0073e6;
+}

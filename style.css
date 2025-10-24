@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f7faff;
+    color: #1a1a1a;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0057b7;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Login Section */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 87, 183, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.login-box h1 {
+    color: #002b80;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+label {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #002b80;
+}
+
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0057b7;
+    box-shadow: 0 0 4px rgba(0, 87, 183, 0.3);
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.remember-forgot a {
+    color: #0057b7;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0057b7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #003f8a;
+}
+
+.register-text {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.register-text a {
+    color: #0057b7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}

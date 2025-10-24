@@ -1,0 +1,162 @@
+/* =========================
+   KINDSTEPS HOW IT WORKS PAGE
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 18px 70px;
+  border-bottom: 1px solid #e6eaf0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.logo h2 {
+  font-size: 22px;
+  color: #004aad;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004aad;
+  margin-left: 30px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #002b80;
+}
+
+/* ---------- Main Section ---------- */
+.how-it-works {
+  text-align: center;
+  padding: 80px 40px;
+  background: linear-gradient(to bottom right, #f6f9ff, #ffffff);
+}
+
+.how-it-works h1 {
+  font-size: 36px;
+  color: #002b80;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.steps {
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.step {
+  border-bottom: 1px solid #cfd8e3;
+  padding: 25px 0;
+}
+
+.step h3 {
+  color: #004aad;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.step p {
+  color: #333;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e6eaf0;
+  padding: 15px 60px;
+  background-color: #ffffff;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.back-btn {
+  color: #004aad;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.back-btn:hover {
+  transform: translateX(-3px);
+}
+
+.footer-left p {
+  font-size: 14px;
+  color: #444;
+}
+
+.footer-right a {
+  color: #004aad;
+  margin-left: 18px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #002b80;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px 30px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .how-it-works h1 {
+    font-size: 28px;
+  }
+
+  .steps {
+    padding: 0 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}

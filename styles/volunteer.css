@@ -1,0 +1,183 @@
+/* =========================
+   KINDSTEPS VOLUNTEER PAGE
+   ========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  overflow-x: hidden;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 18px 70px;
+  border-bottom: 1px solid #e6eaf0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.logo h2 {
+  font-size: 22px;
+  color: #004aad;
+  font-weight: 700;
+}
+
+nav a {
+  text-decoration: none;
+  color: #004aad;
+  margin-left: 30px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a.active {
+  color: #002b80;
+  border-bottom: 2px solid #004aad;
+  padding-bottom: 5px;
+}
+
+nav a:hover {
+  color: #002b80;
+}
+
+/* ---------- Volunteer Section ---------- */
+.volunteer-section {
+  text-align: center;
+  padding: 80px 40px;
+  background: linear-gradient(to bottom right, #f6f9ff, #ffffff);
+}
+
+.volunteer-section h1 {
+  color: #002b80;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.intro {
+  color: #444;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+/* ---------- Form ---------- */
+.volunteer-form {
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 74, 173, 0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.volunteer-form input,
+.volunteer-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d5deed;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.volunteer-form input:focus,
+.volunteer-form textarea:focus {
+  border-color: #004aad;
+}
+
+.btn-main {
+  background-color: #004aad;
+  color: #ffffff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+  background-color: #00398a;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #004aad;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: opacity 0.3s ease;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px 30px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .volunteer-section h1 {
+    font-size: 28px;
+  }
+
+  .volunteer-form {
+    padding: 30px;
+  }
+}
