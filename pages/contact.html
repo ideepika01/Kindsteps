@@ -1,59 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KindSteps | Contact Us</title>
-    <link rel="stylesheet" href="../styles/contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KindSteps | Small Steps, Big Change</title>
+  <link rel="stylesheet" href="../styles/contact.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">
-            <img src="logo.png" alt="KindSteps Logo">
-            <h2>KindSteps</h2>
-        </div>
-        <nav>
-            <a href="#">About Us</a>
-            <a href="#">Volunteer</a>
-            <a href="#">Contact Us</a>
-        </nav>
+  <!-- Header -->
+  <header>
+    <div class="logo-section">
+      <img src="../assets/kindsteps_logo.png" alt="KindSteps Logo" class="logo">
+      <h1>KindSteps</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Volunteer</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
     </header>
 
-    <hr>
-
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <h1>Contact Us</h1>
-
-        <div class="contact-boxes">
-            <div class="contact-card"></div>
-            <div class="contact-card"></div>
-            <div class="contact-card"></div>
+    <div class="main-section">
+        <h2>Contact Us</h2>
+        <div class="contact-cards">
+            <div class="contact-card">
+                <!-- Placeholders: add team member info or icons if needed -->
+            </div>
+            <div class="contact-card">
+            </div>
+            <div class="contact-card">
+            </div>
         </div>
+        <form class="contact-message">
+            <textarea placeholder="Type your message here..." required></textarea>
+            <button type="submit" class="btn send-btn">Send Message</button>
+        </form>
+        <a href="#" class="back-arrow-btn" title="Back" aria-label="Go Back">
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+    </div>
 
-        <div class="message-box"></div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="back-arrow">
-            <i class="fas fa-arrow-left"></i>
-        </div>
-
-        <div class="copyright">
-            <p>CopyRights © 2025 KindSteps</p>
-        </div>
-
-        <div class="social-icons">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fas fa-user-circle"></i>
+    <footer>
+        <p>CopyRights</p>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
         </div>
     </footer>
-
 </body>
 </html>
