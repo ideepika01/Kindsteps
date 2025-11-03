@@ -1,69 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KindSteps | Small Steps, Big Change</title>
-  <link rel="stylesheet" href="../styles/main.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <div class="logo-section">
-      <img src="../assets/kindsteps_logo.png" alt="KindSteps Logo" class="logo">
-      <h1>KindSteps</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Volunteer</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KindSteps | Small Steps, Big Change</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-section">
+        <img src="your-logo.png" alt="KindSteps Logo" class="logo" />
+        <h1>KindSteps</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#volunteer">Volunteer</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <!-- Hero Section -->
+    <!-- HERO -->
     <section class="hero">
-      <h2>KindSteps : <span>Small Steps, Big Change</span></h2>
-      <p>Every act of kindness is a step towards a better world.<br>
-         Join our mission to connect, help, and empower communities—one step at a time.</p>
-      <button class="btn">Report Now</button>
+      <div class="hero-content">
+        <h2>KindSteps : <span>Small Steps, Big Change</span></h2>
+        <p>
+          Every act of kindness is a step towards a better world.<br />
+          Join our mission to connect, help, and empower communities—one step at
+          a time.
+        </p>
+        <button class="btn">Report Now</button>
+      </div>
+
+      <!-- Auto Sliding Hero Carousel -->
+      <div class="carousel-container">
+        <div class="carousel-slide fade">
+          <img
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+            alt="Helping hands"
+          />
+        </div>
+        <div class="carousel-slide fade">
+          <img
+            src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb"
+            alt="Kindness action"
+          />
+        </div>
+        <div class="carousel-slide fade">
+          <img
+            src="https://images.unsplash.com/photo-1509099836639-18ba1795216d"
+            alt="Smiling children"
+          />
+        </div>
+        <div class="carousel-slide fade">
+          <img
+            src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d"
+            alt="Volunteers"
+          />
+        </div>
+
+        <div class="dots">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
     </section>
 
-    <!-- Cards Section -->
+    <!-- First card section -->
     <section class="cards">
-      <div class="card">
-        <div class="card-icon"></div>
+      <div class="card fade-in">
+        <div class="card-icon">💡</div>
         <h3>How it Works</h3>
-        <hr>
-        <p>Submit your kind action, and see how small steps accumulate to big impact.<br>
-        Track your contributions and inspire others in your community!</p>
+        <p>
+          Submit your kind action and see how small steps accumulate into big
+          impacts. Track your contributions and inspire others in your
+          community.
+        </p>
       </div>
 
-      <div class="card">
-        <div class="card-icon"></div>
+      <div class="card fade-in">
+        <div class="card-icon">☎️</div>
         <h3>Contact Us</h3>
-        <hr>
-        <p>Reach out to our support team for any queries and feedback.<br>
-        We’re here to help you spread kindness faster and farther.</p>
+        <p>
+          Reach out to our support team for any queries and feedback. We’re here
+          to help you spread kindness faster and farther.
+        </p>
       </div>
 
-      <div class="card">
-        <div class="card-icon"></div>
+      <div class="card fade-in">
+        <div class="card-icon">🤝</div>
         <h3>Join Us</h3>
-        <hr>
-        <p>Become a KindSteps volunteer and help empower your neighborhood.<br>
-        Make new friends, learn new skills, and make a real difference.</p>
+        <p>
+          Become a KindSteps volunteer and help empower your neighborhood. Make
+          new friends, learn new skills, and make a real difference.
+        </p>
+      </div>
+
+      <div class="card fade-in">
+        <div class="card-icon">🌱</div>
+        <h3>Grow Together</h3>
+        <p>
+          Join a global network of kind people uplifting others. Every small act
+          helps build a better tomorrow.
+        </p>
       </div>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 KindSteps | All Rights Reserved</p>
-    <p>Made with ❤️ to spread kindness</p>
-  </footer>
-</body>
+    <!-- OUR IMPACT SECTION -->
+<section class="impact-section">
+  <h2>Our Impact</h2>
+  <div class="impact-cards">
+    <div class="impact-card">
+      <h3>1273+</h3>
+      <p>Successfully Rehabilitated</p>
+    </div>
+    <div class="impact-card">
+      <h3>11163+</h3>
+      <p>Beggars Counseled</p>
+    </div>
+    <div class="impact-card">
+      <h3>565+</h3>
+      <p>Awareness Programs</p>
+    </div>
+    <div class="impact-card">
+      <h3>37+</h3>
+      <p>Organizations Included</p>
+    </div>
+    <div class="impact-card">
+      <h3>70+</h3>
+      <p>Awards</p>
+    </div>
+    <div class="impact-card">
+      <h3>625+</h3>
+      <p>Volunteers Meet</p>
+    </div>
+    <div class="impact-card">
+      <h3>70000+</h3>
+      <p>Public Impacted Directly</p>
+    </div>
+    <div class="impact-card">
+      <h3>200000+</h3>
+      <p>Public Impacted Indirectly</p>
+    </div>
+    <div class="impact-card">
+      <h3>100000+</h3>
+      <p>Youth Impacted</p>
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <p>© 2025 KindSteps | All Rights Reserved</p>
+      <p>Made with ❤️ to spread kindness</p>
+    </footer>
+
+    <script>
+      // Scroll fade-in animation
+      window.addEventListener("scroll", () => {
+        document.querySelectorAll(".fade-in").forEach((el) => {
+          const top = el.getBoundingClientRect().top;
+          if (top < window.innerHeight - 50) {
+            el.classList.add("show");
+          }
+        });
+      });
+
+      // Auto-sliding carousel
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        const slides = document.querySelectorAll(".carousel-slide");
+        const dots = document.querySelectorAll(".dot");
+
+        slides.forEach((slide) => (slide.style.display = "none"));
+        slideIndex++;
+        if (slideIndex > slides.length) slideIndex = 1;
+
+        slides[slideIndex - 1].style.display = "block";
+        dots.forEach((dot) => dot.classList.remove("active"));
+        dots[slideIndex - 1].classList.add("active");
+
+        setTimeout(showSlides, 4000);
+      }
+    </script>
+  </body>
 </html>
